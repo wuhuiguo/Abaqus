@@ -41,7 +41,7 @@ for p in center:
 #radius = 2
 count = 0
 radius = 2
-center02 = [[random.uniform(radius, length - radius), random.uniform(radius, width - radius)]]
+center02 = []
 while True:
     x = random.uniform(radius, length - radius)
     y = random.uniform(radius, width - radius)
@@ -60,7 +60,7 @@ for p in center02:
 # radius = 0.5
 count = 0
 radius = 0.5
-center03 = [[random.uniform(radius, length - radius), random.uniform(radius, width - radius)]]
+center03 = []
 while True:
     x = random.uniform(radius, length - radius)
     y = random.uniform(radius, width - radius)
